@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700&display=swap');
+
+body {
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+}
+
+.header {
+    background-color: rgba(150, 247, 210, 0.40);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer ;
+    margin-right: auto;
+}
+.header .logo img {
+    height: 75px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+    
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: rgb(252, 177, 177);
+}
+
+.header .btn button {
+    margin-left: 50px;
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: rgb(252, 177, 177);
+    color: white;
+    transform: scale(1.1);
+}
+
+.titulo {
+    background-color: rgba(141, 139, 139, 0.74);
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1s {
+    font-size: 4rem;
+    color: red;
+}
+
+.subtitulo {
+    background-color: rgba(141, 139, 139, 0.74);
+    height:auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2s{
+    padding-top: 0;
+}
+
+.botooones {
+    background-color: rgba(141, 139, 139, 0.74);
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botooones .btn button {
+    margin-left: 50px;
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.botooones .btn button:hover{
+    background-color: rgb(252, 177, 177);
+    color: white;
+    transform: scale(1.1);
+}
